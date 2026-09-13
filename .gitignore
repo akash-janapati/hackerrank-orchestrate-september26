@@ -1,0 +1,23 @@
+# log.txt is the conversation transcript; never commit it.
+log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Model caches / local artifacts
+code/cache/
+.cache/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
